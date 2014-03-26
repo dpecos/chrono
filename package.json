@@ -1,5 +1,5 @@
 {
-  "name": "cronometer",
+  "name": "chrono",
   "version": "0.0.1",
   "description": "Meassure time ellapsed between to points in time or how much it takes a function to finish",
   "main": "index.coffee",
@@ -10,11 +10,11 @@
   "license": "Apache",
   "repository": {
     "type": "git",
-    "url": "git@github.com:dpecos/cronometer.git"
+    "url": "git@github.com:dpecos/chrono.git"
   },
   "keywords": [
     "time",
-    "crono",
-    "cronometer"
+    "chrono",
+    "chronometer"
   ]
 }
