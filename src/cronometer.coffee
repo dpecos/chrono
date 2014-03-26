@@ -8,10 +8,11 @@ class Cronometer
   ellapsed: =>
     @finish_time - @start_time
 
-  time: (f) =>
-    @start_time()
+  @time: (f) =>
+    crono = new Cronometer
+    crono.start()
     f()
-    @finish_time()
-    console.log "Time spent: #{@ellapsed()}"
+    crono.finish()
+    console.log "Time spent: #{crono.ellapsed()} ms"
 
 module.exports.Cronometer = Cronometer
