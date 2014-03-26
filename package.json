@@ -1,6 +1,6 @@
 {
   "name": "node-chrono",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Meassure time ellapsed between to points in time or how much it takes a function to finish",
   "main": "index.coffee",
   "scripts": {
