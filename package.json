@@ -1,21 +1,20 @@
 {
-   "name": "cronometer",
-   "version": "0.0.0",
-   "description": "Meassure time ellapsed between to points in time or how much it takes a function to finish",
-   "main": "index.coffee",
-   "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-   },
-   "author": "Daniel Pecos Martinez",
-   "license": "Apache",
-   "repository": {
-      "type": "git",
-      "url": "git@github.com:dpecos/cronometer.git"
-   },
-   "keywords": [
-      "time",
-      "crono", 
-      "cronometer"
-   ]
-
+  "name": "cronometer",
+  "version": "0.0.1",
+  "description": "Meassure time ellapsed between to points in time or how much it takes a function to finish",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Pecos Martinez",
+  "license": "Apache",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dpecos/cronometer.git"
+  },
+  "keywords": [
+    "time",
+    "crono",
+    "cronometer"
+  ]
 }
